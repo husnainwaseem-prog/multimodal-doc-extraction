@@ -1,0 +1,477 @@
+{
+  "n_documents": 30,
+  "engine": "rapidocr",
+  "overall_field_accuracy": 0.9883,
+  "field_accuracy": {
+    "invoice_number": 1.0,
+    "date": 1.0,
+    "vendor": 1.0,
+    "total": 1.0,
+    "subtotal": 1.0,
+    "tax": 1.0,
+    "line_items": 0.9691
+  },
+  "field_counts": {
+    "invoice_number": {
+      "correct": 30,
+      "total": 30
+    },
+    "date": {
+      "correct": 30,
+      "total": 30
+    },
+    "vendor": {
+      "correct": 30,
+      "total": 30
+    },
+    "total": {
+      "correct": 30,
+      "total": 30
+    },
+    "subtotal": {
+      "correct": 20,
+      "total": 20
+    },
+    "tax": {
+      "correct": 20,
+      "total": 20
+    },
+    "line_items": {
+      "correct": 94,
+      "total": 97
+    }
+  },
+  "documents_flagged_for_review": 10,
+  "per_document": [
+    {
+      "file": "invoice_01.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.986
+    },
+    {
+      "file": "invoice_02.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.986
+    },
+    {
+      "file": "invoice_03.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.99
+    },
+    {
+      "file": "invoice_04.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.989
+    },
+    {
+      "file": "invoice_05.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.988
+    },
+    {
+      "file": "invoice_06.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.988
+    },
+    {
+      "file": "invoice_07.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.986
+    },
+    {
+      "file": "invoice_08.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.988
+    },
+    {
+      "file": "invoice_09.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.979
+    },
+    {
+      "file": "invoice_10.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.986
+    },
+    {
+      "file": "invoice_11.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.993
+    },
+    {
+      "file": "invoice_12.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.991
+    },
+    {
+      "file": "invoice_13.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.989
+    },
+    {
+      "file": "invoice_14.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.983
+    },
+    {
+      "file": "invoice_15.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.986
+    },
+    {
+      "file": "invoice_16.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.991
+    },
+    {
+      "file": "invoice_17.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": false
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.977
+    },
+    {
+      "file": "invoice_18.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": false
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.982
+    },
+    {
+      "file": "invoice_19.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.981
+    },
+    {
+      "file": "invoice_20.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "subtotal": true,
+        "tax": true,
+        "line_items": true
+      },
+      "needs_review": [],
+      "ocr_confidence": 0.987
+    },
+    {
+      "file": "receipt_01.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.963
+    },
+    {
+      "file": "receipt_02.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.966
+    },
+    {
+      "file": "receipt_03.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": false
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.966
+    },
+    {
+      "file": "receipt_04.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.97
+    },
+    {
+      "file": "receipt_05.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.968
+    },
+    {
+      "file": "receipt_06.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.963
+    },
+    {
+      "file": "receipt_07.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.959
+    },
+    {
+      "file": "receipt_08.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.965
+    },
+    {
+      "file": "receipt_09.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.973
+    },
+    {
+      "file": "receipt_10.png",
+      "fields": {
+        "invoice_number": true,
+        "date": true,
+        "vendor": true,
+        "total": true,
+        "line_items": true
+      },
+      "needs_review": [
+        "subtotal",
+        "tax"
+      ],
+      "ocr_confidence": 0.972
+    }
+  ]
+}
